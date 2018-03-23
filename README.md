@@ -5,7 +5,7 @@ RSS builder for Laravel 5
 ## Installation
 
 ```json
-composer require aliraqi/laravel-rss
+composer require ahmed-aliraqi/laravel-rss
 ```
 
 ## Usage
