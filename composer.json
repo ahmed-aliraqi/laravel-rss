@@ -1,0 +1,39 @@
+{
+    "name": "aliraqi/laravel-rss",
+    "description": "RSS builder for Laravel 5",
+    "keywords": ["rss", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thujohn",
+            "email": "jonathan.thuau@gmail.com"
+        },
+        {
+            "name": "Maycon Viana Bordin",
+            "email": "mayconvianabordin@gmail.com"
+        },
+        {
+            "name": "Ahmed Fathy",
+            "email": "aliraqi.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliraqi\\LaravelRss": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aliraqi\\LaravelRss\\RssServiceProvider"
+            ],
+            "aliases": {
+                "Rss": "Aliraqi\\LaravelRss\\RssFacade"
+            }
+        }
+    },
+}
