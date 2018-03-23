@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aliraqi\\LaravelRss": "src/"
+            "Aliraqi\\LaravelRss\\": "src/"
         }
     },
     "extra": {
